@@ -1,0 +1,20 @@
+.code-container {
+    background-color: #1e1e1e; /* Dark background like VS Code */
+    color: #ffffff; /* White text color */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow-x: auto; /* Enable horizontal scroll if needed */
+  }
+  
+  .code-container pre {
+    white-space: pre-wrap; /* Wrap text within pre tag */
+    margin: 0;
+  }
+  
+  .code-container code {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font like VS Code */
+    font-size: 14px;
+  }
+  

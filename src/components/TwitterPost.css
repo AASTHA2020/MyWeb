@@ -1,0 +1,45 @@
+.twitter-post {
+    background-color: #ffffff; /* White background like Twitter */
+    color: #000000; /* Black text color */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #007acc; /* Twitter's brand blue */
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    margin-left: 1rem;
+  }
+  
+  .user-info h3 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .user-info p {
+    font-size: 0.8rem;
+    color: #808080; /* Lighter grey for username */
+  }
+  
+  .post-content {
+    padding-left: 1rem;
+  }
+  
+  .post-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

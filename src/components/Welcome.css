@@ -1,0 +1,46 @@
+.welcome-container {
+    background-color: #1e1e1e; /* Dark background like VS Code */
+    color: #ffffff; /* White text color */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .animated-font {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font like VS Code */
+    animation: animateText 1s ease-in-out infinite alternate; /* Example animation */
+  }
+  
+  @keyframes animateText {
+    from {
+      transform: translateY(-5px);
+    }
+    to {
+      transform: translateY(5px);
+    }
+  }
+  
+  .welcome-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .welcome-buttons button {
+    padding: 0.5rem 1rem;
+    background-color: #007acc; /* Twitter's brand blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome-buttons button:hover {
+    background-color: #005f80;
+  }
+  
